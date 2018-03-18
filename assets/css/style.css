@@ -119,6 +119,9 @@
 .input-block, .text-block, .button-block {
     margin: 10px auto;
 }
+.text-block{
+    min-height: 1em;
+}
 
 .product-block-list .product-block {
     float: left;
@@ -234,7 +237,7 @@
     align-items: center;
     padding: 5px;
 }
-.swiper-slide-active{
+.swaper-border .swiper-slide-active{
     border: 1px solid #000;
 }
 .swiper-slide.swiper-slide-active .button-block{
@@ -243,4 +246,34 @@
 
 .swiper-slide .button-block{
     display: none;
+}
+
+.custom-navigate .swiper-button-next, .custom-navigate .swiper-button-prev{
+    top: 5%;
+    background-size: 15px 25px;
+}
+.custom-navigate .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+    left: 30%;
+}
+
+.custom-navigate  .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+    right: 30%;
+}
+
+.width-half{
+    width: 50%;
+    display: inline-block;
+}
+
+.width-quarter{
+    width: 25%;
+    display: inline-block;
+}
+
+.calendar-block .input-block label{
+    min-width: 30px;
+}
+
+.swiper-content-block{
+    margin-top: 15px;
 }
