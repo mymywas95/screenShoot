@@ -19,15 +19,16 @@
     margin-bottom: 10px;
 }
 
-.title{
+.title {
     line-height: 2.3rem;
 }
+
 .modal.custom .modal-footer .btn {
     min-width: 80px;
     cursor: pointer;
 }
 
-.margin-bottom-10{
+.margin-bottom-10 {
     margin-bottom: 10px;
 }
 
@@ -78,13 +79,133 @@
     width: 100%;
 }
 
-.detail-block{
+.detail-block {
     margin: 5% auto;
     width: 80%;
 }
 
-.table-block{
-    max-height: 60vh;
-    overflow-y: scroll;
-    margin-bottom: 10px;
+.full-width{
+    width: 100%;
+}
+
+.text-detail {
+    max-height: 25px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.product-block {
+    margin: 10px 0;
+}
+
+.group-action {
+    margin: 10px auto;
+}
+
+.table-list-block, .product-block-list{
+    display: inline-block;
+    width: 100%;
+}
+
+.table-block {
+    float: left;
+    width: calc(100% / 4);
+}
+
+.input-block, .text-block, .button-block {
+    margin: 10px auto;
+}
+
+.product-block-list .product-block {
+    float: left;
+    width: calc(100% / 11);
+    margin: 0;
+    margin-right: calc(100% / 121);
+    margin-bottom: calc(100% / 121);
+    border: 1px solid #000;
+    padding: 2px;
+}
+
+.product-block-list .product-block .product-image {
+    display: none;
+}
+
+.product-block-list .product-block:hover .product-image{
+    display: block;
+}
+
+.product-block-list .product-block:hover .product-text{
+    display: none;
+}
+
+
+.main-image-block{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+#upload {
+    display: none;
+}
+
+.upload-icon{
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+.hidden{
+    display: none;
+}
+
+.time-block{
+    border: 1px solid;
+    box-shadow: 1px 1px 1px 1px #000;
+    margin: 10px auto;
+    padding: 10px;
+    display: inline-block;
+}
+.time-detail{
+    font-size: 500%;
+}
+
+.input-block .select2-container{
+    width: 100% !important;
+}
+
+.select2-results img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.select2-container .select2-selection--single{
+    height: 2.45rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 2.45rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 2.45rem;
+}
+.numberic-list-block{
+    width: 40%;
+    display: inline-block;
+}
+.numberic-list-block.input{
+    width: 40%;
+}
+.numberic-item{
+    float: left;
+    width: calc(100%/5);
+    margin-bottom: calc(100%/25);
+}
+
+.numberic-item input {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
 }
