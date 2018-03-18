@@ -30,3 +30,4 @@ $("#myval").select2({
         return m;
     }
 });
+
