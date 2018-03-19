@@ -4,8 +4,6 @@ function uploadFile() {
 
 function uploadFileAction(e) {
     document.getElementById('new-image').src =  window.URL.createObjectURL(e.files[0]);
-    document.getElementById('upload-action').className = "hidden";
-    document.getElementById('upload-rs').className = "main-image-block";
 }
 
 function format (option) {
